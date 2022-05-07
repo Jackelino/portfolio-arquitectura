@@ -5,13 +5,14 @@ import router from "./router";
 import { library } from '@fortawesome/fontawesome-svg-core';
 
 /* add some free styles */
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faLinkedin , faFacebook} from '@fortawesome/free-brands-svg-icons';
+import { faMoon, faSun,} from '@fortawesome/free-solid-svg-icons';
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library */
-library.add(faMoon, faSun)
+library.add(faMoon, faSun, faTwitter, faLinkedin, faFacebook)
 // import css
 import './assets/css/index.css';
 

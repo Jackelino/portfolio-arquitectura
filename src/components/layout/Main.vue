@@ -1,10 +1,8 @@
 <template>
-<main>
-  <div class="container p-5">
+<main class="px-5 pt-20 pb-5">
     <section class="min-h-screen">
       <router-view></router-view>
     </section>
-  </div>
 </main>
 </template>
 

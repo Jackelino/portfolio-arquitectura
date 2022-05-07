@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-1 grid-flow-row auto-rows-auto">
+  <div class="grid grid-cols-1 grid-flow-row auto-rows-auto bg-white">
     <div class="row-start-1 row-end-1">
       <Header/>
     </div>
