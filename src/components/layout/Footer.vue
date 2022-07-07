@@ -3,14 +3,14 @@
     <div class="flex flex-row p-5 ">
       <div class="basis-1/3 pb-5">
         <h1 class="text-white text-xl  mb-4">info</h1>
-        <div class="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, atque, consectetur cum cumque debitis
+        <div class="text-slate-200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, atque, consectetur cum cumque debitis
           deserunt earum impedit in laboriosam minima minus molestiae quaerat quis similique tempore temporibus tenetur,
           unde voluptas.
         </div>
       </div>
       <div class="basis-1/3 pb-5">
         <h1 class="text-white text-xl mb-4">Contact</h1>
-        <div class="text-gray-300">
+        <div class="text-slate-200">
           <ul>
             <li>
                 fdfsdfs
@@ -20,7 +20,7 @@
       </div>
       <div class="basis-1/3 pb-5">
         <h1 class="text-white text-xl  mb-4">Links</h1>
-        <div class="text-gray-300">
+        <div class="text-slate-200">
           <ul>
             <li class="uppercase">
               <router-link to="/" class="uppercase hover:font-semibold hover:text-white">home</router-link>
@@ -48,12 +48,12 @@
     </div>
     <div class="text-center p-5 sm:pt-12 font-light flex items-center justify-between text-gray-400  bg-red-600 ">
       <div>
-        <span class="text-gray-400">
+        <span class="text-slate-300">
           © {{ date }} - All Rights Reserved.
         </span>
       </div>
       <div>
-        <span class="text-gray-400"> Created by Jack Dev </span>
+        <span class="text-slate-300"> Created by Jack Dev </span>
       </div>
     </div>
   </footer>

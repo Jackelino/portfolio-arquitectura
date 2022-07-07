@@ -15,6 +15,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(faMoon, faSun, faTwitter, faLinkedin, faFacebook)
 // import css
 import './assets/css/index.css';
+// import themify icons
+import './assets/css/themify-icons.css'
 
 createApp(App)
     .use(router)
