@@ -1,6 +1,8 @@
 <template>
-  <div class="container mx-auto p-5 transition-opacity">
-    about
+  <div class="container">
+    <div class="container">
+      <h1 class="font-bold text-5xl pb-16 underline underline-offset-8">Sobre Mi</h1>
+    </div>
   </div>
 </template>
 

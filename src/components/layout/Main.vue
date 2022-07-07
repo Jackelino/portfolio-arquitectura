@@ -1,6 +1,6 @@
 <template>
-<main class="container p-12">
-    <section class="min-h-screen">
+<main class="container p-16">
+    <section class="min-h-full">
       <router-view></router-view>
     </section>
 </main>
