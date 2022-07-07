@@ -2,33 +2,22 @@
   <footer class="bg-red-500">
     <div class="flex flex-row p-5 ">
       <div class="basis-1/3 pb-5">
-        <h1 class="text-white text-xl  mb-4">info</h1>
-        <div class="text-slate-200">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, atque, consectetur cum cumque debitis
-          deserunt earum impedit in laboriosam minima minus molestiae quaerat quis similique tempore temporibus tenetur,
-          unde voluptas.
+        <h1 class="text-white text-xl  mb-4">Logo</h1>
+        <div class="text-slate-200">logo
         </div>
       </div>
       <div class="basis-1/3 pb-5">
         <h1 class="text-white text-xl mb-4">Contact</h1>
         <div class="text-slate-200">
-          <ul>
-            <li>
-                fdfsdfs
-            </li>
-          </ul>
+          <p>Mail: info@mysite.com</p>
+          <p>Phone: 123-456-7890</p>
         </div>
       </div>
       <div class="basis-1/3 pb-5">
-        <h1 class="text-white text-xl  mb-4">Links</h1>
+        <h1 class="text-white text-xl  mb-4">Address</h1>
         <div class="text-slate-200">
-          <ul>
-            <li class="uppercase">
-              <router-link to="/" class="uppercase hover:font-semibold hover:text-white">home</router-link>
-            </li>
-            <li class="uppercase" v-for="link in links" :key="link">
-              <router-link :to="'/'+ link" class="uppercase hover:font-semibold  hover:text-white">{{ link }}</router-link>
-            </li>
-          </ul>
+          <p>500 Terry Francois Stree</p>
+          <p>San Francisco, CA 94158</p>
         </div>
       </div>
     </div>
